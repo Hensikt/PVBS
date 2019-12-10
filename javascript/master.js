@@ -6,6 +6,13 @@ function beweegAnders(){
     gsap.to('.st4', {duration: 2, rotation:'+=360'});
 }
 
+function beweegMa(){
+    gsap.to('.st0', {duration: 1, x:"-=400", backgroundColor: "#ddd", yoyo: true, repeat: 3, ease: 'back'});
+    gsap.to('.st2', {duration: 1, x:"-=400", backgroundColor: "#ddd", yoyo: true, repeat: 3, ease: 'back'});
+    gsap.to('.st3', {duration: 1, x:"-=400", backgroundColor: "#ddd", yoyo: true, repeat: 3, ease: 'back'});
+    gsap.to('.st8', {duration: 4.5, rotation: '+=360'})
+}
+
 const mijnTimeLine = new TimelineMax({});
 const breekHetHart = () => {
     mijnTimeLine.to(niet, 1,{scale: .1,})
