@@ -1,3 +1,7 @@
 .st5:hover{
-    transform: scale(1);
+    cursor: pointer;
+}
+
+.st4:hover{
+    cursor: pointer;
 }
